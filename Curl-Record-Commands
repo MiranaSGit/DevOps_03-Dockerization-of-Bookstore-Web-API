@@ -1,0 +1,5 @@
+curl http://3.88.159.169/books
+curl http://3.88.159.169/books/3
+curl -H "Content-Type: application/json" -X POST -d '{"author":"Paulo Coelho","title":"The Alchemist"}' http://3.88.159.169/books
+curl -H "Content-Type: application/json" -X PUT -d '{"author":"Franz Kafka","title":"Dava"}' http://3.88.159.169/books/3
+curl -H "Content-Type: application/json" -X DELETE http://3.88.159.169/books/2
